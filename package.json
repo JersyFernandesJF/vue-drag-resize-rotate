@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/gausszhou/vue-drag-resize-rotate#readme",
   "scripts": {
+    "dev-server": "webpack-dev-server",
     "dev": "node prebuild.js && vue-cli-service serve",
     "test": "vitest run --coverage",
     "build": "node prebuild.js && vue-cli-service build",
